@@ -2,7 +2,7 @@ CREATE TABLE characters (
   id INTEGER PRIMARY KEY,
   name TEXT,
   motto TEXT,
-  
+  author_id INTEGER
 );
 
 CREATE TABLE books (
