@@ -1,1 +1,1 @@
-UPDATE characters.species FROM characters 
+UPDATE characters.species SET 
