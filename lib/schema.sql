@@ -5,6 +5,10 @@ CREATE TABLE characters (
   author_id INTEGER
 );
 
+CREATE TABLE character_books (
+  
+);
+
 CREATE TABLE books (
   id INTEGER PRIMARY KEY,
   title TEXT,
