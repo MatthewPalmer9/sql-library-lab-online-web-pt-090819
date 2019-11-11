@@ -3,7 +3,9 @@ CREATE TABLE characters (
 );
 
 CREATE TABLE books (
-  id INTEGER PRIMARY KEY
+  id INTEGER PRIMARY KEY,
+  title TEXT,
+  year TEXT
 );
 
 CREATE TABLE series (
